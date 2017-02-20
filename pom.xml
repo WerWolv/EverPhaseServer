@@ -3,9 +3,9 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
+    <groupId>com.deltabase.everphase.server.udp</groupId>
     <version>1.0-SNAPSHOT</version>
-    <artifactId>helloworld</artifactId>
+    <artifactId>everphaseserver</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.sparkjava</groupId>
@@ -52,7 +52,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>com.deltabase.everphase.server.udp.Main</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
