@@ -48,11 +48,11 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-                    <finalName>helloworld</finalName>
+                    <finalName>everphaseserver</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>Main</mainClass>
+                            <mainClass>com.deltabase.everphase.server.udp.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
